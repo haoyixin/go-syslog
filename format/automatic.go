@@ -6,8 +6,8 @@ import (
 	"errors"
 	"strconv"
 
-	"gopkg.in/haoyixin/go-syslog.v2/internal/syslogparser/rfc3164"
-	"gopkg.in/haoyixin/go-syslog.v2/internal/syslogparser/rfc5424"
+	"github.com/haoyixin/go-syslog.v2/internal/syslogparser/rfc3164"
+	"github.com/haoyixin/go-syslog.v2/internal/syslogparser/rfc5424"
 )
 
 /* Selecting an 'Automatic' format detects incoming format (i.e. RFC3164 vs RFC5424) and Framing

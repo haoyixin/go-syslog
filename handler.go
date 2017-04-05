@@ -1,7 +1,7 @@
 package syslog
 
 import (
-	"gopkg.in/haoyixin/go-syslog.v2/format"
+	"github.com/haoyixin/go-syslog.v2/format"
 )
 
 //The handler receive every syslog entry at Handle method

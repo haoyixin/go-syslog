@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	. "gopkg.in/check.v1"
-	"gopkg.in/haoyixin/go-syslog.v2/format"
+	. "github.com/check.v1"
+	"github.com/haoyixin/go-syslog.v2/format"
 )
 
 func Test(t *testing.T) { TestingT(t) }

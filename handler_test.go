@@ -1,8 +1,8 @@
 package syslog
 
 import (
-	. "gopkg.in/check.v1"
-	"gopkg.in/haoyixin/go-syslog.v2/format"
+	. "github.com/check.v1"
+	"github.com/haoyixin/go-syslog.v2/format"
 )
 
 type HandlerSuite struct{}

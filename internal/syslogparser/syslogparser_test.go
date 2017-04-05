@@ -3,7 +3,7 @@ package syslogparser
 import (
 	"testing"
 
-	. "gopkg.in/check.v1"
+	. "github.com/check.v1"
 )
 
 // Hooks up gocheck into the gotest runner.

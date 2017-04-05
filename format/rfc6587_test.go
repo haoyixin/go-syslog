@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	. "gopkg.in/check.v1"
+	. "github.com/check.v1"
 )
 
 func (s *FormatSuite) TestRFC6587_GetSplitFuncSingleSplit(c *C) {

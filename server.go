@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/haoyixin/go-syslog.v2/format"
+	"github.com/haoyixin/go-syslog.v2/format"
 )
 
 var (

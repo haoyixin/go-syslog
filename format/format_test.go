@@ -3,7 +3,7 @@ package format
 import (
 	"testing"
 
-	. "gopkg.in/check.v1"
+	. "github.com/check.v1"
 )
 
 func Test(t *testing.T) { TestingT(t) }

@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"time"
 
-	"gopkg.in/haoyixin/go-syslog.v2/internal/syslogparser"
+	"github.com/haoyixin/go-syslog.v2/internal/syslogparser"
 )
 
 type LogParts map[string]interface{}
