@@ -2,7 +2,7 @@ package syslog
 
 import (
 	. "github.com/check.v1"
-	"github.com/haoyixin/go-syslog.v2/format"
+	"github.com/haoyixin/go-syslog/format"
 )
 
 type HandlerSuite struct{}

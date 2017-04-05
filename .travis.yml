@@ -13,10 +13,10 @@ matrix:
 install:
  - rm -rf $GOPATH/src/github.com/haoyixin
  - mkdir -p $GOPATH/src/github.com/haoyixin
- - ln -s $PWD $GOPATH/src/github.com/haoyixin/go-syslog.v2
- - cd $GOPATH/src/github.com/haoyixin/go-syslog.v2 && go get -v -t ./...
+ - ln -s $PWD $GOPATH/src/github.com/haoyixin/go-syslog
+ - cd $GOPATH/src/github.com/haoyixin/go-syslog && go get -v -t ./...
  
 script:
- - cd $GOPATH/src/github.com/haoyixin/go-syslog.v2 && go test -v ./...
+ - cd $GOPATH/src/github.com/haoyixin/go-syslog && go test -v ./...
  
 sudo: false

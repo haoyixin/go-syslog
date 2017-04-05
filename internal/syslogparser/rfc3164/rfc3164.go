@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/haoyixin/go-syslog.v2/internal/syslogparser"
+	"github.com/haoyixin/go-syslog/internal/syslogparser"
 )
 
 type Parser struct {

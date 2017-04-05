@@ -6,7 +6,7 @@ import (
 	"time"
 
 	. "github.com/check.v1"
-	"github.com/haoyixin/go-syslog.v2/internal/syslogparser"
+	"github.com/haoyixin/go-syslog/internal/syslogparser"
 )
 
 // Hooks up gocheck into the gotest runner.

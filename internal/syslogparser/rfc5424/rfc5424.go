@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/haoyixin/go-syslog.v2/internal/syslogparser"
+	"github.com/haoyixin/go-syslog/internal/syslogparser"
 )
 
 const (
